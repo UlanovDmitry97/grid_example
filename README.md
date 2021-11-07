@@ -1,1 +1,1 @@
-grid_example
+Это пример работы с гридами Botstrap.

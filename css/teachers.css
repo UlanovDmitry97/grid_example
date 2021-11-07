@@ -1,0 +1,100 @@
+.teachers {
+  background: radial-gradient(49% 49% at 67.78% 84.57%, #555681 0%, #2E2B44 100%);
+}
+
+.teachers__content {
+  padding-top: 75px;
+  padding-bottom: 72px;
+}
+
+.teachers__title {
+  margin-bottom: 23px;
+  color: #fff;
+}
+
+.teachers__avatar {
+  border-radius: 23px 23px 0 0;
+  margin-bottom: 31px;
+}
+
+.teachers__name {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 700;
+  color: #fff;
+}
+
+.teachers__quote {
+  margin-top: 7px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #85859B;
+}
+
+@media (max-width: 1110px) {
+  .teachers__card:nth-child(4),
+  .teachers__card:nth-child(5){
+    margin-top: 22px;
+  }
+
+  .teachers__content {
+    padding-bottom: 73px;
+  }
+}
+
+@media (max-width: 690px) {
+  .teachers__content {
+    padding-top: 47px;
+    padding-bottom: 49px;
+  }
+
+  .teachers__title {
+    font-size: 20px;
+    margin-bottom: 27px;
+  }
+
+  .teachers__card:not(:last-child) {
+    margin-bottom: 21px;
+  }
+
+  .teachers__card:nth-child(4),
+  .teachers__card:nth-child(5){
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .teachers__content {
+    padding-top: 47px;
+    padding-bottom: 53px;
+  }
+
+  .teachers__avatar_wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .teachers__name {
+    text-align: center;
+  }
+
+  .teachers__title {
+    font-size: 20px;
+    margin-bottom: 27px;
+  }
+
+  .teachers__quote {
+    text-align: center;
+  }
+
+  .teachers__card:not(:last-child) {
+    margin-bottom: 21px;
+  }
+
+  .teachers__card:nth-child(4),
+  .teachers__card:nth-child(5){
+    margin-top: 0;
+  }
+}

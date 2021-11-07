@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Курсы 3D-моделирования</title>
+  <link rel="preload" href="fonts/roboto-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/roboto-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/benefits.css">
+  <link rel="stylesheet" href="css/teachers.css">
+  <link rel="stylesheet" href="css/courses.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="js/burger.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <picture class="logo">
+        <source srcset="img/Logo__min.png" media="(max-width: 510px)">
+        <img src="img/Logo.png" alt="Логотип 'Скилбокс'">
+      </picture>
+
+
+      <button aria-label="Бургер меню открыть" id="burger" class="burger-menu">
+        <span class="burger-menu__item"></span>
+        <span class="burger-menu__item"></span>
+        <span class="burger-menu__item"></span>
+      </button>
+
+      <nav id="menu" class="menu">
+        <button aria-label="Бургер меню закрыть" id="close" class="burger-close"></button>
+
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">О&nbsp;нас</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Преподаватели</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Курсы</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">О&nbsp;нас</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Преподаватели</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Курсы</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <main>
+    <section class="banner">
+      <div class="container banner__container">
+        <div class="row banner__wrap">
+          <div class="col-12 col-sm-8 col-md-6 col-lg-6 col-xl-6 banner__info">
+            <h1 class="banner__title">Курсы 3D моделирования</h1>
+
+            <p class="banner__text">Следует отметить, что существующая теория способствует повышению качества
+              благоприятных перспектив. Не следует, однако, забывать.</p>
+
+            <button class="btn" href="#">Выбрать курс</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefits__container">
+        <div class="row">
+          <picture class="col-sm-4 col-md-4 col-lg-4 col-xl-2 benefits__picture">
+            <source srcset="img/benefits__img_768px.png" media="(max-width: 1110px)">
+            <img src="img/benefits__img.png" alt="Декоративное изображение">
+          </picture>
+
+          <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-7">
+            <h2 class="section__title benefits__title">Преимущества обучения в skillbox</h2>
+
+            <p class="benefits__info">Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших
+              компаний, которые представляют собой яркий пример континентально-европейского типа политической культуры,
+              будут рассмотрены исключительно в разрезе маркетинговых предпосылок. </p>
+          </div>
+        </div>
+
+        <div class="row benefits__wrap">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 benefits__inner benefits__first">
+            <p class="benefits__text">Результат вашего обучения является самым важным для нас приоритетом</p>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 benefits__inner benefits__second">
+            <p class="benefits__text">Лично познакомитесь с одним из своих будущих преподавателей</p>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 benefits__inner benefits__third">
+            <p class="benefits__text">Значимость этих проблем очевидна, поэтому стоит всегда быть внимательным</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="teachers">
+      <div class="container">
+        <div class="row teachers__content">
+          <h2 class="section__title teachers__title">Преподаватели курсов</h2>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 teachers__card">
+            <picture class="teachers__avatar_wrap">
+              <source srcset="img/Vladimir-Petrov__avatar_320px.jpg" media="(max-width: 510px)">
+              <source srcset="img/Vladimir-Petrov__avatar_576px.jpg" media="(max-width: 690px)">
+              <source srcset="img/Vladimir-Petrov__avatar_768px.jpg" media="(max-width: 1110px)">
+              <source srcset="img/Vladimir-Petrov__avatar.jpg" media="(min-width: 1110px)">
+              <img class="teachers__avatar" src="img/Vladimir-Petrov__avatar.jpg" alt="Владимир Петров">
+            </picture>
+
+            <span class="teachers__name">Владимир Петров</span>
+
+            <p class="teachers__quote">
+              Лишь непосредственные участники технического прогресса неоднозначны и&nbsp;будут в&nbsp;равной степени
+              предоставлены
+              сами себе.
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 teachers__card">
+            <picture class="teachers__avatar_wrap">
+              <source srcset="img/Denis__Sergeev_avatar_320px.jpg" media="(max-width: 510px)">
+              <source srcset="img/Denis__Sergeev_avatar_576px.jpg" media="(max-width: 690px)">
+              <source srcset="img/Denis__Sergeev_avatar_768px.jpg" media="(max-width: 1110px)">
+              <source srcset="img/Denis__Sergeev_avatar.jpg" media="(min-width: 1110px)">
+              <img class="teachers__avatar" src="img/Denis__Sergeev_avatar.jpg" alt="Денис Сергеев">
+            </picture>
+
+            <span class="teachers__name">Денис Сергеев</span>
+
+            <p class="teachers__quote">
+              Безусловно, разбавленное изрядной долей эмпатии, рациональное мышление.
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 teachers__card">
+            <picture class="teachers__avatar_wrap">
+              <source srcset="img/Mehail__Andreev_avatar_320px.jpg" media="(max-width: 510px)">
+              <source srcset="img/Mehail__Andreev_avatar_576px.jpg" media="(max-width: 690px)">
+              <source srcset="img/Mehail__Andreev_avatar_768px.jpg" media="(max-width: 1110px)">
+              <source srcset="img/Mehail__Andreev_avatar.jpg" media="(min-width: 1110px)">
+              <img class="teachers__avatar" src="img/Mehail__Andreev_avatar.jpg" alt="Михаил Андреев">
+            </picture>
+
+            <span class="teachers__name">Михаил Андреев</span>
+
+            <p class="teachers__quote">
+              Ясность нашей позиции очевидна: высокое качество позиционных исследований напрямую зависит от&nbsp;вывода.
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 teachers__card">
+            <picture class="teachers__avatar_wrap">
+              <source srcset="img/Konstantin__Dmitriev_avatar_320px.jpg" media="(max-width: 510px)">
+              <source srcset="img/Konstantin__Dmitriev_avatar_576px.jpg" media="(max-width: 690px)">
+              <source srcset="img/Konstantin__Dmitriev_avatar_768px.jpg" media="(max-width: 1110px)">
+              <source srcset="img/Konstantin__Dmitriev_avatar.jpg" media="(min-width: 1110px)">
+              <img class="teachers__avatar" src="img/Konstantin__Dmitriev_avatar.jpg" alt="Константин Дмитриев">
+            </picture>
+
+            <span class="teachers__name">Константин Дмитриев</span>
+
+            <p class="teachers__quote">
+              Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что существующая теория, в&nbsp;своём классическом
+              представлении.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses">
+      <div class="container">
+        <div class="row courses__content">
+
+          <h2 class="section__title courses__title">Курсы</h2>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 courses__card">
+            <article class="courses__card-wrap courses__card-wrap_cinema4d">
+              <h3 class="courses__subtitle">Cinema 4d для начинающих</h3>
+
+              <p class="courses__text">Учитывая ключевые сценарии поведения, базовый вектор развития напрямую зависит
+                от
+                системы массового участия. Следует отметить, что сложившаяся структура организации напрямую зависит от
+                стандартных подходов.</p>
+
+              <button class="btn courses__btn">Подробнее</button>
+            </article>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 courses__card">
+            <article class="courses__card-wrap courses__card-wrap_blender">
+              <h3 class="courses__subtitle">Blender:&nbsp;продвинутый уровень</h3>
+
+              <p class="courses__text">Но убеждённость некоторых оппонентов в значительной степени обусловливает
+                важность форм воздействия. Внезапно, тщательные исследования конкурентов представлены.</p>
+
+              <button class="btn courses__btn">Подробнее</button>
+            </article>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 courses__card">
+            <article class="courses__card-wrap courses__card-wrap_3ds">
+              <h3 class="courses__subtitle">Визуализация в 3ds&nbsp;Max</h3>
+
+              <p class="courses__text">Повседневная практика показывает, что сложившаяся структура организации
+                обеспечивает актуальность кластеризации усилий.</p>
+
+              <button class="btn courses__btn">Подробнее</button>
+            </article>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 courses__card">
+            <article class="courses__card-wrap courses__card-wrap_ZBrush">
+              <h3 class="courses__subtitle">Скульптинг в ZBrush</h3>
+
+              <p class="courses__text">Разнообразный и богатый опыт говорит нам, что граница обучения кадров требует
+                определения и уточнения прогресса профессионального сообщества! В частности, постоянный количественный
+                рост и сфера нашей активности.</p>
+
+              <button class="btn courses__btn">Подробнее</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container footer-top__container">
+        <ul class="footer-top__list">
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="#">
+              <span class="footer-top__icon footer-top__icon_facebook"></span>
+            </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="#">
+              <span class="footer-top__icon footer-top__icon_twitter"></span>
+            </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="#">
+              <span class="footer-top__icon footer-top__icon_inst"></span>
+            </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link " href="#">
+              <span class="footer-top__icon footer-top__icon_youtube"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-copy">
+      <div class="container footer-copy_container">
+        <p class="footer-copy__text">skillbox <a href="#">&reg;</a> 2021</p>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
